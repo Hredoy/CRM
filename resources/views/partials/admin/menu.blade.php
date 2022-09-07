@@ -26,7 +26,7 @@
                     <img src="{{ $logo . '/' . (isset($company_logos) && !empty($company_logos) ? $company_logos : 'logo-dark.png') }}"
                          alt="{{ config('app.name', 'ERPGo-SaaS') }}" class="logo logo-lg">
                 @else
-                    <img src="{{ $logo . '/' . (isset($company_logo) && !empty($company_logo) ? $company_logo : 'logo-dark.png') }}"
+                    <img src="{{ $logo . '/' . (isset($company_logo) && !empty($company_logo) ? $company_logo : 'logo-light.png') }}"
                          alt="{{ config('app.name', 'ERPGo-SaaS') }}" class="logo logo-lg">
                 @endif
 

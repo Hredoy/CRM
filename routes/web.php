@@ -3493,3 +3493,9 @@ Route::get('/plan/{flag}', ['as' => 'error.plan.show','uses' => 'PaymentWallPaym
 Route::post('/paymentwall' , ['as' => 'invoice.paymentwallpayment','uses' =>'PaymentWallPaymentController@invoicepaymentwall'])->middleware(['XSS']);
 Route::post('/invoice-pay-with-paymentwall/{plan}',['as' => 'invoice.pay.with.paymentwall','uses' =>'PaymentWallPaymentController@invoicePayWithPaymentwall'])->middleware(['XSS']);
 Route::get('/invoices/{flag}/{invoice}', ['as' => 'error.invoice.show','uses' => 'PaymentWallPaymentController@invoiceerror']);
+
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
+

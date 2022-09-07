@@ -64,7 +64,7 @@
         }
         document.getElementById('logo_light').onchange = function () {
             var src = URL.createObjectURL(this.files[0])
-            document.getElementById('imae1').src = src
+            document.getElementById('image1').src = src
         }
         document.getElementById('favicon').onchange = function () {
             var src = URL.createObjectURL(this.files[0])
@@ -166,8 +166,7 @@
                                                         <div class=" bg-primary dark_logo_update"> <i
                                                                 class="ti ti-upload px-1"></i>{{ __('Choose file here') }}
                                                         </div>
-{{--                                                        <input type="file" class="form-control file" name="company_logo_light" id="logo_light"--}}
-{{--                                                               data-filename="logo_light">--}}
+                                                        
                                                         <input type="file" name="company_logo_light" id="logo_light" class="form-control file" data-filename="logo_light">
 
 
