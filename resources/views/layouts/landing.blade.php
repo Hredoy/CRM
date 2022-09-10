@@ -21,7 +21,7 @@
 
     @endphp
 
-    <title>{{__('ERPGo SaaS')}}</title>
+    <title>{{__('ERP Ameltek')}}</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -40,7 +40,7 @@
     <meta name="author" content="Rajodiya Infotech" />
 
     <!-- Favicon icon -->
-    <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon" />
+    <link rel="icon" href="{{asset('storage/uploads/logo/favicon.png')}}" type="image/x-icon" />
 
     <link rel="stylesheet" href="{{asset('assets/css/plugins/animate.min.css')}}" />
     <!-- font css -->
@@ -68,7 +68,7 @@
 <nav class="navbar navbar-expand-md navbar-dark default top-nav-collapse">
     <div class="container">
         <a class="navbar-brand bg-transparent" href="">
-            <img src="{{asset('assets/images/logo-light.png')}}" alt="logo" />
+            <img src="{{asset('storage/uploads/logo/logo-dark.png')}}" alt="logo" width="100px"/>
         </a>
         <button
             class="navbar-toggler"
@@ -123,7 +123,7 @@
                     class="text-white mb-sm-4 wow animate__fadeInLeft"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2
                     class="text-white mb-sm-4 wow animate__fadeInLeft"
@@ -136,12 +136,11 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInLeft" data-wow-delay="0.8s">
-                    <a href="{{ route('login') }}" class="btn btn-light me-2"
+                    <a href="#" class="btn btn-light me-2"
                     ><i class="far fa-eye me-2"></i>Live Demo</a
                     >
-                    <a href="https://codecanyon.net/item/erpgo-saas-all-in-one-business-erp-with-project-account-hrm-crm/33263426" class="btn btn-outline-light" target="_blank"
-                    ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
-                    >
+                    <a href="#" class="btn btn-outline-light">
+                    <i class="fas fa-shopping-cart me-2"></i>Buy now</a>
                 </div>
             </div>
             <div class="col-sm-5">
@@ -252,7 +251,7 @@
                     class="mb-sm-4 f-w-600 wow animate__fadeInLeft"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInLeft" data-wow-delay="0.4s">
                     {{__(' All In One Business ERP With Project, Account, HRM, CRM')}}
@@ -262,7 +261,7 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInLeft" data-wow-delay="0.8s">
-                    <a href="#" class="btn btn-primary" target="_blank"
+                    <a href="#" class="btn btn-primary" 
                     ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
                     >
                 </div>
@@ -290,7 +289,7 @@
                     class="mb-sm-4 f-w-600 wow animate__fadeInRight"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInRight" data-wow-delay="0.4s">
                     {{__('All In One Business ERP With Project, Account, HRM, CRM')}}
@@ -300,7 +299,7 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInRight" data-wow-delay="0.8s">
-                    <a href="#" class="btn btn-primary" target="_blank"
+                    <a href="#" class="btn btn-primary" 
                     ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
                     >
                 </div>
@@ -436,7 +435,7 @@
                     class="mb-sm-4 f-w-600 wow animate__fadeInLeft"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInLeft" data-wow-delay="0.4s">
                     {{__('All In One Business ERP With Project, Account, HRM, CRM')}}
@@ -446,7 +445,7 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInLeft" data-wow-delay="0.8s">
-                    <a href="#" class="btn btn-primary" target="_blank"
+                    <a href="#" class="btn btn-primary" 
                     ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
                     >
                 </div>
@@ -474,7 +473,7 @@
                     class="mb-sm-4 f-w-600 wow animate__fadeInRight"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInRight" data-wow-delay="0.4s">
                     {{__('All In One Business ERP With Project, Account, HRM, CRM')}}
@@ -484,7 +483,7 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInRight" data-wow-delay="0.8s">
-                    <a href="#" class="btn btn-primary" target="_blank"
+                    <a href="#" class="btn btn-primary" 
                     ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
                     >
                 </div>
@@ -822,7 +821,7 @@
                     class="mb-sm-4 f-w-600 wow animate__fadeInLeft"
                     data-wow-delay="0.2s"
                 >
-                    {{__('ERPGo SaaS')}}
+                    {{__('ERP Ameltek')}}
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInLeft" data-wow-delay="0.4s">
                     {{__('All In One Business ERP With Project, Account, HRM, CRM')}}
@@ -832,7 +831,7 @@
                     project for free.
                 </p>
                 <div class="my-4 wow animate__fadeInLeft" data-wow-delay="0.8s">
-                    <a href="#" class="btn btn-primary" target="_blank"
+                    <a href="#" class="btn btn-primary" 
                     ><i class="fas fa-shopping-cart me-2"></i>Buy now</a
                     >
                 </div>
@@ -926,7 +925,7 @@
             </div>
             <div class="col-lg-6 col-sm-12 text-end">
 
-                <p class="text-body">Copyright © 2022 | Design By ERPGo</p>
+                <!--<p class="text-body">Copyright © 2022 | Design By ERPGo</p>-->
             </div>
         </div>
     </div>

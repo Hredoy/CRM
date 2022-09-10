@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 @php
     $logo=asset(Storage::url('uploads/logo/'));
-$company_logo=Utility::getValByName('company_logo_dark');
+    $company_logo=Utility::getValByName('company_logo_dark');
     $company_logos=Utility::getValByName('company_logo_light');
     $company_favicon=Utility::getValByName('company_favicon');
     $setting = \App\Models\Utility::colorset();
@@ -9,9 +9,6 @@ $company_logo=Utility::getValByName('company_logo_dark');
     $color = (!empty($setting['color'])) ? $setting['color'] : 'theme-3';
     $company_logo = \App\Models\Utility::GetLogo();
     $SITE_RTL= isset($setting['SITE_RTL'])?$setting['SITE_RTL']:'off';
-
-
-
 @endphp
 
 
@@ -129,7 +126,7 @@ $company_logo=Utility::getValByName('company_logo_dark');
                 <div class="row">
                     <div class="col-6">
                         <p class="">
-                            {{(Utility::getValByName('footer_text')) ? Utility::getValByName('footer_text') :  __('Copyright ERPGO') }} {{ date('Y') }}
+                            {{(Utility::getValByName('footer_text')) ? Utility::getValByName('footer_text') :  __('Copyright ERP Ameltek') }} {{ date('Y') }}
                         </p>
                     </div>
 
