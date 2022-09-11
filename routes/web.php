@@ -25,7 +25,11 @@ use Illuminate\Support\Facades\Route;
 require __DIR__.'/auth.php';
 
 
-Route::get('/', ['as' => 'home','uses' =>'HomeController@index'])->middleware(['XSS']);
+// Route::get('/', ['as' => 'home','uses' =>'HomeController@index'])->middleware(['XSS']);
+
+Route::get('/login/{lang?}', 'Auth\AuthenticatedSessionController@showLoginForm')->name('login');
+Route::get('/', 'Auth\AuthenticatedSessionController@showLoginForm')->name('login');
+
 Route::get('/home', ['as' => 'home','uses' =>'HomeController@index'])->middleware(['auth','XSS']);
 
 Route::get('/register/{lang?}', 'Auth\RegisteredUserController@showRegistrationForm')->name('register');
@@ -45,7 +49,7 @@ Route::get('/register/{lang?}', 'Auth\RegisteredUserController@showRegistrationF
 
 Route::post('register', 'Auth\RegisteredUserController@store')->name('register');
 
-Route::get('/login/{lang?}', 'Auth\AuthenticatedSessionController@showLoginForm')->name('login');
+// Route::get('/login/{lang?}', 'Auth\AuthenticatedSessionController@showLoginForm')->name('login');
 
 // Route::get('/password/resets/{lang?}', 'Auth\AuthenticatedSessionController@showLinkRequestForm')->name('change.langPass');
 // Route::get('/password/resets/{lang?}', 'Auth\LoginController@showLinkRequestForm')->name('change.langPass');
